@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "WebRTC",
-            targets: ["WebRTC"]),
+            targets: ["WebRTB"]),
     ],
     dependencies: [ ],
     targets: [
