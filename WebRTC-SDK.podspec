@@ -10,12 +10,12 @@ Pod::Spec.new do |spec|
     DESC
   
     spec.homepage     = "https://github.com/webrtc-sdk/Specs"
-    spec.license      = { :type => 'BSD', :file => 'WebRTC.xcframework/LICENSE' }
+    spec.license      = { :type => 'BSD', :file => 'WebRTB.xcframework/LICENSE' }
     spec.author       = "webrtc-sdk"
     spec.ios.deployment_target = '12.0'
     spec.osx.deployment_target = '10.13'
   
-    spec.source       = { :http => "https://github.com/incubo4u/Specs/releases/download/renamed_xcframework/membraneWebRTCRenamed.xcframework.zip" }
-    spec.vendored_frameworks = "WebRTC.xcframework"
+    spec.source       = { :http => "https://github.com/incubo4u/Specs/releases/download/104.5112.15/WebRTB.xcframework.zip" }
+    spec.vendored_frameworks = "WebRTB.xcframework"
     
   end

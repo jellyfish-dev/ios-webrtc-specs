@@ -12,9 +12,9 @@ let package = Package(
     dependencies: [ ],
     targets: [
         .binaryTarget(
-            name: "WebRTC",
-            url: "https://github.com/incubo4u/Specs/releases/download/renamed_xcframework/membraneWebRTCRenamed.xcframework.zip",
-            checksum: "3e642fc006e310f7c5c9e355100b5cdaf56755d8dbe599aea6f686e1698c35dc"
+            name: "WebRTB",
+            url: "https://github.com/incubo4u/Specs/releases/download/104.5112.15/WebRTB.xcframework.zip",
+            checksum: "80f35d6ccf692e63ac098f0adefd186735b35fda375dde57b877489d73cea1d0"
         ),
     ]
 )
