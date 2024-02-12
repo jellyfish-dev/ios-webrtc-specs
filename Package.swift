@@ -7,14 +7,14 @@ let package = Package(
     products: [
         .library(
             name: "WebRTC",
-            targets: ["WebRTB"]),
+            targets: ["WebRTC"]),
     ],
     dependencies: [ ],
     targets: [
         .binaryTarget(
-            name: "WebRTB",
-            url: "https://github.com/incubo4u/Specs/releases/download/104.5112.15/WebRTB.xcframework.zip",
-            checksum: "80f35d6ccf692e63ac098f0adefd186735b35fda375dde57b877489d73cea1d0"
+            name: "WebRTC",
+            url: "https://github.com/incubo4u/Specs/releases/download/104.5112.15/WebRTCMembraneFramework.xcframework.zip",
+            checksum: "3f050c46c783f60425fde6071a92f0f328786cbf9e44e1282b786e8e5d1fdeff"
         ),
     ]
 )
