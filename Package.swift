@@ -6,8 +6,8 @@ let package = Package(
     platforms: [.iOS(.v12), .macOS(.v10_13)],
     products: [
         .library(
-            name: "WebRTC",
-            targets: ["WebRTC"]),
+            name: "WebRTCMembraneFramework",
+            targets: ["WebRTCMembraneFramework"]),
     ],
     dependencies: [ ],
     targets: [
