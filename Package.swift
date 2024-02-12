@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "WebRTCMembraneFramework",
-            targets: ["WebRTC"]),
+            targets: ["WebRTCMembraneFramework"]),
     ],
     dependencies: [ ],
     targets: [
