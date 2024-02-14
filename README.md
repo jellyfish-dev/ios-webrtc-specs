@@ -1,4 +1,4 @@
-# Specs
+# Specs forked from [Specs](https://github.com/webrtc-sdk/Specs)
 
 CocoaPod Specs for iOS/macOS
 
@@ -11,5 +11,5 @@ source 'https://github.com/webrtc-sdk/Specs.git'
 ```
 
 ```podspec
-pod 'WebRTC-SDK', '=114.5735.08'
+pod 'WebRTC-SDK', '=104.5112.15'
 ```
