@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "WebRTCMembraneFramework",
-            url: "https://github.com/incubo4u/Specs/releases/download/104.5112.15/WebRTCMembraneFramework.xcframework.zip",
+            url: "https://github.com/jellyfish-dev/ios-webrtc-specs/releases/download/104.5112.15/WebRTCMembraneFramework.xcframework.zip",
             checksum: "3f050c46c783f60425fde6071a92f0f328786cbf9e44e1282b786e8e5d1fdeff"
         ),
     ]
