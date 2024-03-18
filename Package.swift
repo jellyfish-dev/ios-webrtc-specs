@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "WebRTCMembraneFramework",
-    platforms: [.iOS(.v12), .macOS(.v10_13)],
+    name: "WebRTCMembrane",
+    platforms: [.iOS(.v12)],
     products: [
         .library(
-            name: "WebRTCMembraneFramework",
-            targets: ["WebRTCMembraneFramework"]),
+            name: "WebRTCMembrane",
+            targets: ["WebRTCMembrane"]),
     ],
     dependencies: [ ],
     targets: [
         .binaryTarget(
-            name: "WebRTCMembraneFramework",
-            url: "https://github.com/jellyfish-dev/ios-webrtc-specs/releases/download/104.5112.15/WebRTCMembraneFramework.xcframework.zip",
-            checksum: "3f050c46c783f60425fde6071a92f0f328786cbf9e44e1282b786e8e5d1fdeff"
+            name: "WebRTCMembrane",
+            url: "https://github.com/jellyfish-dev/ios-webrtc-specs/releases/download/104.5112.15/WebRTCMembrane.xcframework.zip",
+            checksum: "072ff67a6ac81e47eefdad73ffd4ecdebc533e6d5eb6fd0d2749975aac2a2379"
         ),
     ]
 )
