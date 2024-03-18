@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "WebRTCMembrane"
-    spec.version      = "104.5112.16"
+    spec.version      = "104.5112.17"
     spec.summary      = "WebRTC pre-compiled library for Darwin. "
     spec.description  = <<-DESC
     WebRTC pre-compiled library for Darwin.
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
     spec.author       = { 'Software Mansion' => 'https://swmansion.com' }
     spec.ios.deployment_target = '12.0'
 
-    spec.source       = { :http => "https://github.com/jellyfish-dev/ios-webrtc-specs/releases/download/104.5112.16/WebRTCMembrane.xcframework.zip" }
+    spec.source       = { :http => "https://github.com/jellyfish-dev/ios-webrtc-specs/releases/download/104.5112.17/WebRTCMembrane.xcframework.zip" }
     spec.vendored_frameworks = "WebRTCMembrane.xcframework"
 
   end
