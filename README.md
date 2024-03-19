@@ -11,5 +11,5 @@ source 'https://github.com/jellyfish-dev/ios-webrtc-specs.git'
 ```
 
 ```podspec
-pod 'WebRTCMembrane', '=114.5735.01'
+pod 'WebRTCMembrane', '=114.5735.02'
 ```
